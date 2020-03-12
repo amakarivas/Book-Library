@@ -1,3 +1,11 @@
+.all-body {
+  overflow-y: auto;
+  width: 370px;
+  height: 100vh;
+}
+
+
+
 .header {
     width: 100%;
     position: fixed;
@@ -192,7 +200,6 @@ a {
     height: 5em;
   }
 }
-
 
 
 
