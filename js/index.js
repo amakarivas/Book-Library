@@ -40,7 +40,7 @@ contract BookLibraryContract=
 `;
 
 window.addEventListener('load',async function(){
-    client=await Ae.aepp();
+    client=await Ae.Aepp();
     contractInstance=await client.getContractInstance(contractSource,{contractAddress});
     let allBooks=(await contractInstance.methods.getUsersListOfBooks()).decodedResult;
     console.log(allBooks,"all books");
